@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(to bottom, #000000 0%, #000000 50%, #222222 100%);
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.Logo  {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+.contact {
+    position: fixed;
+    top: 450px;
+    right: 30px;
+    background: #c20101;
+    padding: 1px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s; /* Add this line */
+}
+.contact a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s; /* Add this line */
+}
+
+.contact:hover {
+    background-color: white;
+    color: rgb(90, 1, 1);
+}
+
+.contact:hover a {
+    color: rgb(109, 0, 0);
+}
+
+.Subheading {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.p {
+    padding: 10px;
+    margin: 10px 30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.ScaleMFG img {
+    width: 100%;
+    max-width: 900px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.askus-btn {
+    display: inline-block;
+    background: #c20101;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 12px; /* a few pixels lower */
+    transition: background 0.2s, color 0.2s;
+}
+.askus-btn:hover {
+    background: white;
+    color: red;
+    text-decoration: none;
+}
+
+
